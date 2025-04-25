@@ -1,0 +1,53 @@
+.main-content {
+  padding: 20px 0;
+  min-height: calc(100vh - 56px);
+}
+
+/* Style dla formularzy */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Dodatkowe style dla elementów Bootstrap */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/* Style dla strony głównej */
+.jumbotron {
+  padding: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+/* Style dla tabel */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Style dla nawigacji */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
